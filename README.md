@@ -15,7 +15,7 @@ Organizations face significant operational and financial costs when employees re
 | Property        | Value |
 |----------------|-------|
 | **Source**     | IBM HR Analytics Employee Attrition & Performance |
-| **File**       | `WA_Fn-UseC_-HR-Employee-Attrition.csv` |
+| **Link**       | (https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) |
 | **Rows**       | 1,470 employees |
 | **Columns**    | 35 features |
 | **Target**     | `Attrition` (Yes = 1, No = 0) |
