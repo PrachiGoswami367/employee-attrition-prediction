@@ -239,57 +239,7 @@ Top 15 features by Random Forest Gini importance (actual values from trained mod
 
 ---
 
-## 11. UI Screenshot — Overview Page
-
-The Overview page displays 5 live KPI cards, an attrition distribution bar and pie chart, dataset summary statistics, and the step-by-step ML pipeline. All numbers are computed from the loaded CSV at runtime.
-
-![Overview Page](screenshots/screenshot_overview.png)
-
-*Page 1 — Overview: KPI cards (1,470 employees, 237 attritions, 16.1% rate, 30 features, 0.735 ROC-AUC), attrition distribution chart, and ML pipeline steps*
-
----
-
-## 12. UI Screenshot — EDA Page
-
-The EDA page has four tabs: Dataset preview (100 rows, dtypes, class balance), Numeric Features (8-panel histogram grid + interactive deep-dive with per-class stats), Categorical Features (6-panel proportion bar charts + attrition rate tables), and Correlations (bar chart + ranked table with direction labels).
-
-![EDA Page](screenshots/screenshot_eda.png)
-
-*Page 2 — EDA: Numeric histograms (green = stay, red = leave), categorical attrition rates (OverTime ~30.5%, Sales Rep ~39.8%), and Pearson correlation chart*
-
----
-
-## 13. UI Screenshot — Model Performance Page
-
-The Model Performance page shows the full metrics table with colour-highlighted best/worst cells, a grouped bar chart, side-by-side confusion matrices with expandable classification reports, ROC curves for all 3 models on one chart, and the top 15 feature importances.
-
-![Model Performance Page](screenshots/screenshot_performance.png)
-
-*Page 3 — Model Performance: Metrics table (RF best ROC-AUC=0.7348, LR best Recall=0.5106), confusion matrices (RF: TN=213, FP=34, FN=28, TP=19), ROC curves, and feature importances*
-
----
-
-## 14. UI Screenshot — Predict Attrition Page
-
-The Predict Attrition page provides a 30-field employee form covering personal details, job information, compensation, satisfaction scores, education, and tenure. On submission, it returns an instant Yes/No prediction with a probability gauge, all-model vote cards, and a top-8 influencing features table.
-
-![Predict Attrition Page](screenshots/screenshot_predict.png)
-
-*Page 4 — Prediction Form: 30 input fields. After clicking Predict: Yes/No result + probability gauge + votes from all 3 models + top influencing factors*
-
----
-
-## 15. UI Screenshot — Insights Page
-
-The Insights page presents 8 data-driven business findings, tiered recommendations (Immediate, Medium-term, Strategic), model limitations, conclusion, and a final model comparison table.
-
-![Insights Page](screenshots/screenshot_insights.png)
-
-*Page 5 — Insights: 8 key findings, 3-tier business recommendations, limitations, and conclusion with final model comparison*
-
----
-
-## 16. Prediction Results
+## 11. Prediction Results
 
 Two real predictions from the trained Random Forest model:
 
@@ -345,7 +295,7 @@ Two real predictions from the trained Random Forest model:
 
 ---
 
-## 17. Key Findings
+## 12. Key Findings
 
 1. **StockOptionLevel** is the #1 Random Forest feature (12.41%) — employees with zero stock options leave far more often
 2. **OverTime** has the strongest Pearson correlation (+0.246) — ~30.5% attrition rate vs ~10.4% without overtime
@@ -358,7 +308,7 @@ Two real predictions from the trained Random Forest model:
 
 ---
 
-## 18. Business Recommendations
+## 13. Business Recommendations
 
 ### Immediate Actions
 - Launch **stock option programmes** for Job Level 1–2 employees
@@ -378,7 +328,7 @@ Two real predictions from the trained Random Forest model:
 
 ---
 
-## 19. Limitations
+## 14. Limitations
 
 | Limitation | Impact | Mitigation |
 |-----------|--------|------------|
@@ -391,7 +341,7 @@ Two real predictions from the trained Random Forest model:
 
 ---
 
-## 20. Conclusion
+## 15. Conclusion
 
 Three Machine Learning models were trained and evaluated on the IBM HR Analytics dataset:
 
@@ -405,7 +355,7 @@ Deploying this model in a real HR workflow, integrated with monthly reporting, c
 
 ---
 
-## 21. How to Run
+## 16. How to Run
 
 ### Prerequisites
 - Python 3.9 or higher
