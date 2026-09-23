@@ -26,17 +26,12 @@
 8. [ML Pipeline](#8-ml-pipeline)
 9. [Model Evaluation & Results](#9-model-evaluation--results)
 10. [Feature Importance](#10-feature-importance)
-11. [UI Screenshot — Overview Page](#11-ui-screenshot--overview-page)
-12. [UI Screenshot — EDA Page](#12-ui-screenshot--eda-page)
-13. [UI Screenshot — Model Performance Page](#13-ui-screenshot--model-performance-page)
-14. [UI Screenshot — Predict Attrition Page](#14-ui-screenshot--predict-attrition-page)
-15. [UI Screenshot — Insights Page](#15-ui-screenshot--insights-page)
-16. [Prediction Results](#16-prediction-results)
-17. [Key Findings](#17-key-findings)
-18. [Business Recommendations](#18-business-recommendations)
-19. [Limitations](#19-limitations)
-20. [Conclusion](#20-conclusion)
-21. [How to Run](#21-how-to-run)
+11. [Prediction Results](#16-prediction-results)
+12. [Key Findings](#17-key-findings)
+13. [Business Recommendations](#18-business-recommendations)
+14. [Limitations](#19-limitations)
+15. [Conclusion](#20-conclusion)
+16. [How to Run](#21-how-to-run)
 
 ---
 
